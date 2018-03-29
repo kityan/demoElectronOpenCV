@@ -1,0 +1,19 @@
+{
+  "name": "demo-electron-opencv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "devDependencies": {},
+  "scripts": {
+    "electron-rebuild": "electron-rebuild -w opencv4nodejs",
+    "install": "npm run electron-rebuild",
+    "start": "electron main.js"
+  },
+  "dependencies": {
+    "electron": "^1.8.4",
+    "electron-rebuild": "^1.7.3",
+    "opencv4nodejs": "^3.5.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,23 @@
+body,
+button {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+span span {
+    color: #0055FF;
+}
+
+button {
+    margin-left: 10px;
+}
+
+canvas {
+    transform: scale(0.75);
+    transform-origin: 0 0;
+}
